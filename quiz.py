@@ -1,5 +1,5 @@
-answers = ["b", "a", "d", "c"]
-correct = ["b", "c", "d", "c"]
+answers = ["a", "a", "a", "c"]
+correct = ["a", "c", "d", "c"]
 
 score = 0
 
