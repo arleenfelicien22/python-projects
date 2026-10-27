@@ -1,20 +1,14 @@
 
-grade = float(input("Enter a grade out of 20: "))
-
+grade = float(input("grade: "))
 if grade < 0 or grade > 20:
     print("Invalid grade")
-
 elif grade >= 16:
     print("Very good")
-
 elif grade >= 14:
     print("Good")
-
 elif grade >= 12:
     print("Fairly good")
-
 elif grade >= 10:
     print("Pass")
-
 else:
     print("Fail")
