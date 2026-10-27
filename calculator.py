@@ -1,29 +1,16 @@
-
-a = float(input("Enter the first number: "))
-b = float(input("Enter the second number: "))
-o = input("Enter the operator:")
-if o == "+":
-    Result= a + b
-elif o == "-":
-    Result= a - b
-elif o == "*":
-    Result= a * b
-elif o == "/":
-    if b == 0:
-        print("Error: division by zero")
+num1 = float(input("Num1 :"))
+num2 = float(input("Num2 :"))
+operation = input("Enter the operation needs to be performed: (+,-,*,/): ")
+if (operation == "+"):
+    print("sum =", num1+num2)
+elif(operation == "-"):
+    print(num1-num2)
+elif(operation == "*"):
+    print(num1*num2)
+elif(operation =="/"):
+    if(num2==0):
+        print("Zero division Error")
     else:
-        Result= a / b
-elif o == "//":
-    if b == 0:
-        print("Error: division by zero")
-    else:
-        Result= a // b
-elif o == "%":
-    if b == 0:
-        print("Error: division by zero")
-    else:
-        Result= a % b
-elif o == "**":
-    Result= a ** b
+        print(num1/num2)
 else:
-    print("Error: unknown operator")
+    print("Uknown operation", operation)
