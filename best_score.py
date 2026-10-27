@@ -1,4 +1,4 @@
-scores = [12, 17, 9, 15, 14]
+scores = [12, 20, 9, 15, 14]
 
 best = -1
 best_pos = 0
